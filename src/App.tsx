@@ -1,4 +1,5 @@
 import {Button} from "@/components/ui/button.tsx";
+import {LoginForm} from "@/components/login-form.tsx";
 
 function App() {
 
@@ -7,6 +8,9 @@ function App() {
       <div>
           <Button>Click me</Button>
       </div>
+        <div>
+            <LoginForm/>
+        </div>
     </>
   )
 }
